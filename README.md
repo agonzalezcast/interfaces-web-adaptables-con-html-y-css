@@ -31,4 +31,7 @@ Abrir `caso1/index.html` y `caso2/index.html` en el navegador. No requiere insta
 ## Resumen de commits
  
 | # | Fecha      | Hash    |                         Mensaje                       | Zona   | Cambio        |
-| 1 |
+|---|------------|---------|-------------------------------------------------------|--------|---------------|
+| 1 | 2026-09-18 | 8da13ac | Crear estructura de la tarea y documentacion inicial | Global | Carpetas |
+
+

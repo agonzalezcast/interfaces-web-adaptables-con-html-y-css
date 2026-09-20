@@ -37,5 +37,6 @@ Abrir `caso1/index.html` y `caso2/index.html` en el navegador. No requiere insta
 | 3 | 2026-09-19 | ae26f00 | Estructura HTML de las tarjetas de misiones | Caso 1 | Tarjetas de misiones |
 | 4 | 2026-09-20 | 3444994 | Estructura HTML del Resumen de Operaciones y ajuste de Misiones y header | Caso 1 | Resumen de Operaciones |
 | 5 | 2026-09-20 | b11dbe7 | Correccion del ultimo commit (no habia guardado los cambios) | Caso 1 | Resumen de Operaciones |
+| 6 | 2026-09-20 | 1a16a7a | Estructura HTML de Equipos, Alertas y Agenda | Caso 1 | Equipos, Alertas y Agenda HTML |
 
 

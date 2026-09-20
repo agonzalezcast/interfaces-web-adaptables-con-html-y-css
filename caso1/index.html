@@ -30,72 +30,107 @@
     </nav>
     <main>
         <h2>Resumen de operación</h2>
-            
-        <h2>Misiones</h2>
-        <article>
-            <h3>Monitoreo de mamíferos</h3>
-            <p>Equipo Zoología</p>
-            <p>Corcovado</p>
-            <p>06:00 09:00</p>
-            <p>Prioridad alta</p>
-            <p>
-                <span class="estado">
-                    <span aria-hidden="true">●</span> En progreso
-                </span>
-            </p>
-        </article>
 
-        <article>
-            <h3>Registro de aves tropicales</h3>
-            <p>Equipo Ornitología</p>
-            <p>Sendero Los Patos</p>
-            <p>07:30 10:30</p>
-            <p>Prioridad media</p>
-            <p>
-                <span class="estado">
-                    <span aria-hidden="true">●</span> Pendiente
-                </span>
-            </p>
-        </article>
+        <div class="indicadores">
+            <article class="indicador indicador-principal">
+                <span class="numero">18</span>
+                <h3>Investigadores activos</h3>
+            </article>
 
-        <article>
-            <h3>Muestreo de calidad del agua</h3>
-            <p>Equipo Hidrología</p>
-            <p>Río Sirena</p>
-            <p>09:00 11:00</p>
-            <p>Prioridad alta</p>
-            <p>
-                <span class="estado">
-                    <span aria-hidden="true">●</span> Completado
-                </span>
-            </p>
-        </article>
+            <article class="indicador">
+                <span class="numero">2</span>
+                <h3>Misiones en progreso</h3>
+            </article>
 
-        <article>
-            <h3>Inventario de especies vegetales</h3>
-            <p>Equipo Botánica</p>
-            <p>Cerro Rincón</p>
-            <p>10:00 13:00</p>
-            <p>Prioridad media</p>
-            <p>
-                <span class="estado">
-                    <span aria-hidden="true">●</span> En progreso
-                </span>
-            </p>
-        </article>
+            <article class="indicador">
+                <span class="numero">1</span>
+                <h3>Misiones completadas</h3>
+            </article>
 
-        <article>
-            <h3>Monitoreo de tortugas marinas</h3>
-            <p>Equipo Conservación</p>
-            <p>Playa Llorona</p>
-            <p>19:00 23:00</p>
-            <p>Prioridad alta</p>
-            <p>
-                <span class="estado">
-                    <span aria-hidden="true">●</span> Pendiente
-                </span>
-            </p>
-        </article>
+            <article class="indicador indicador-alerta">
+                <span class="numero">2</span>
+                <h3>Alertas pendientes</h3>
+            </article>
+        </div>
+
+        <section id="misiones" class="misiones">
+            <h2>Misiones activas</h2>
+
+            <div class="misiones-grid">
+
+                <article class="mision prioridad-alta">
+                    <span class="prioridad">Prioridad alta</span>
+                    <h3>Monitoreo de mamíferos</h3>
+                    <p><strong>Equipo:</strong> Zoología</p>
+                    <p><strong>Ubicación:</strong> Corcovado</p>
+                    <p><strong>Horario:</strong> 06:00 - 09:00</p>
+                    <p>
+                        <span class="estado estado-progreso">
+                            <span aria-hidden="true">●</span>
+                            En progreso
+                        </span>
+                    </p>
+                </article>
+
+                <article class="mision prioridad-media">
+                    <span class="prioridad">Prioridad media</span>
+                    <h3>Registro de aves tropicales</h3>
+                    <p><strong>Equipo:</strong> Ornitología</p>
+                    <p><strong>Ubicación:</strong> Sendero Los Patos</p>
+                    <p><strong>Horario:</strong> 07:30 - 10:30</p>
+                    <p>
+                        <span class="estado estado-pendiente">
+                            <span aria-hidden="true">○</span>
+                            Pendiente
+                        </span>
+                    </p>
+                </article>
+
+                <article class="mision prioridad-alta">
+                    <span class="prioridad">Prioridad alta</span>
+                    <h3>Muestreo de calidad del agua</h3>
+                    <p><strong>Equipo:</strong> Hidrología</p>
+                    <p><strong>Ubicación:</strong> Río Sirena</p>
+                    <p><strong>Horario:</strong> 09:00 - 11:00</p>
+                    <p>
+                        <span class="estado estado-completado">
+                            <span aria-hidden="true">✓</span>
+                            Completado
+                        </span>
+                    </p>
+                </article>
+
+                <article class="mision prioridad-media">
+                    <span class="prioridad">Prioridad media</span>
+                    <h3>Inventario de especies vegetales</h3>
+                    <p><strong>Equipo:</strong> Botánica</p>
+                    <p><strong>Ubicación:</strong> Cerro Rincón</p>
+                    <p><strong>Horario:</strong> 10:00 - 13:00</p>
+                    <p>
+                        <span class="estado estado-progreso">
+                            <span aria-hidden="true">●</span>
+                            En progreso
+                        </span>
+                    </p>
+                </article>
+
+                <article class="mision prioridad-alta">
+                    <span class="prioridad">Prioridad alta</span>
+                    <h3>Monitoreo de tortugas marinas</h3>
+                    <p><strong>Equipo:</strong> Conservación</p>
+                    <p><strong>Ubicación:</strong> Playa Llorona</p>
+                    <p><strong>Horario:</strong> 19:00 - 23:00</p>
+                    <p>
+                        <span class="estado estado-suspendido">
+                            <span aria-hidden="true">!</span>
+                            Suspendida
+                        </span>
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
 
     </main>
 </body>

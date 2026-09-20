@@ -35,5 +35,6 @@ Abrir `caso1/index.html` y `caso2/index.html` en el navegador. No requiere insta
 | 1 | 2026-09-18 | 8da13ac | Crear estructura de la tarea y documentacion inicial | Global | Carpetas |
 | 2 | 2026-09-19 | 16324d6 | Estructura HTML del header y la navegacion del caso 1 | Caso 1 | Header y Navegacion HTML |
 | 3 | 2026-09-19 | ae26f00 | Estructura HTML de las tarjetas de misiones | Caso 1 | Tarjetas de misiones |
+| 4 | 2026-09-20 | 3444994 | Estructura HTML del Resumen de Operaciones y ajuste de Misiones y header | Caso 1 | Resumen de Operaciones |
 
 

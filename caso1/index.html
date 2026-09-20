@@ -14,7 +14,7 @@
             <h1>Expedición Península de Osa</h1>
             <p>Parque Nacional Corcovado</p>
         </div>
-        <div>
+        <div class="estado-general">
             <p>Día 2 de 7</p>
             <p><span aria-hidden="true">●</span>Operaciones Activas</p>
         </div>
@@ -29,30 +29,35 @@
         </ul>
     </nav>
     <main>
-        <h2>Resumen de operación</h2>
+        <!-- RESUMEN -->
+        <section id="resumen" class="resumen">
 
-        <div class="indicadores">
-            <article class="indicador indicador-principal">
-                <span class="numero">18</span>
-                <h3>Investigadores activos</h3>
-            </article>
+            <h2>Resumen de operación</h2>
 
-            <article class="indicador">
-                <span class="numero">2</span>
-                <h3>Misiones en progreso</h3>
-            </article>
+            <div class="indicadores">
+                <article class="indicador indicador-principal">
+                    <span class="numero">18</span>
+                    <h3>Investigadores activos</h3>
+                </article>
 
-            <article class="indicador">
-                <span class="numero">1</span>
-                <h3>Misiones completadas</h3>
-            </article>
+                <article class="indicador">
+                    <span class="numero">2</span>
+                    <h3>Misiones en progreso</h3>
+                </article>
 
-            <article class="indicador indicador-alerta">
-                <span class="numero">2</span>
-                <h3>Alertas pendientes</h3>
-            </article>
-        </div>
+                <article class="indicador">
+                    <span class="numero">1</span>
+                    <h3>Misiones completadas</h3>
+                </article>
 
+                <article class="indicador indicador-alerta">
+                    <span class="numero">2</span>
+                    <h3>Alertas pendientes</h3>
+                </article>
+            </div>
+        </section>
+
+        <!-- MISIONES -->
         <section id="misiones" class="misiones">
             <h2>Misiones activas</h2>
 
@@ -131,6 +136,136 @@
             </div>
         </section>
 
+        <!-- EQUIPOS -->
+        <section id="equipos" class="equipos">
+            <h2>Equipos científicos</h2>
+
+            <div class="equipos-grid">
+
+                <article class="equipo">
+                    <h3>Biología</h3>
+                    <p><strong>Integrantes:</strong> 5</p>
+                    <p><strong>Misión:</strong> Monitoreo de mamíferos</p>
+                    <p><strong>Estado:</strong> En campo</p>
+                    <p><strong>Próxima actividad:</strong> Registro de huellas</p>
+                </article>
+
+                <article class="equipo">
+                    <h3>Hidrología</h3>
+                    <p><strong>Integrantes:</strong> 4</p>
+                    <p><strong>Misión:</strong> Calidad del agua</p>
+                    <p><strong>Estado:</strong> En laboratorio</p>
+                    <p><strong>Próxima actividad:</strong> Análisis de muestras</p>
+                </article>
+
+                <article class="equipo">
+                    <h3>Meteorología</h3>
+                    <p><strong>Integrantes:</strong> 3</p>
+                    <p><strong>Misión:</strong> Monitoreo climático</p>
+                    <p><strong>Estado:</strong> En campo</p>
+                    <p><strong>Próxima actividad:</strong> Lectura de sensores</p>
+                </article>
+
+                <article class="equipo">
+                    <h3>Geología</h3>
+                    <p><strong>Integrantes:</strong> 4</p>
+                    <p><strong>Misión:</strong> Análisis del terreno</p>
+                    <p><strong>Estado:</strong> En preparación</p>
+                    <p><strong>Próxima actividad:</strong> Muestreo de suelo</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ALERTAS -->
+        <section id="alertas" class="alertas">
+            <h2>Alertas</h2>
+
+            <div class="alertas-lista">
+
+                <article class="alerta alerta-critica">
+                    <span class="alerta-icono" aria-hidden="true">!</span>
+                    <div>
+                        <h3>Sensor meteorológico sin conexión</h3>
+                        <p>El sensor del sector norte dejó de transmitir datos.</p>
+                    </div>
+                </article>
+
+                <article class="alerta alerta-alta">
+                    <span class="alerta-icono" aria-hidden="true">⚠</span>
+                    <div>
+                        <h3>Lluvia intensa en el sector norte</h3>
+                        <p>Se recomienda revisar las rutas de las misiones activas.</p>
+                    </div>
+                </article>
+
+                <article class="alerta alerta-media">
+                    <span class="alerta-icono" aria-hidden="true">◷</span>
+                    <div>
+                        <h3>Retraso en una misión</h3>
+                        <p>El equipo de Conservación reporta un retraso de 30 minutos.</p>
+                    </div>
+                </article>
+
+                <article class="alerta alerta-info">
+                    <span class="alerta-icono" aria-hidden="true">i</span>
+                    <div>
+                        <h3>Batería baja</h3>
+                        <p>El equipo remoto del sector sur tiene 20 % de batería.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- AGENDA -->
+        <section id="agenda" class="agenda">
+            <h2>Próximas actividades</h2>
+
+            <div class="agenda-lista">
+
+                <article class="actividad">
+                    <time datetime="2026-09-20T11:30">11:30</time>
+                    <div>
+                        <h3>Revisión de muestras</h3>
+                        <p>Equipo Hidrología</p>
+                    </div>
+                </article>
+
+                <article class="actividad">
+                    <time datetime="2026-09-20T13:00">13:00</time>
+                    <div>
+                        <h3>Registro de especies vegetales</h3>
+                        <p>Equipo Botánica</p>
+                    </div>
+                </article>
+
+                <article class="actividad">
+                    <time datetime="2026-09-20T15:00">15:00</time>
+                    <div>
+                        <h3>Lectura de sensores climáticos</h3>
+                        <p>Equipo Meteorología</p>
+                    </div>
+                </article>
+
+                <article class="actividad">
+                    <time datetime="2026-09-20T17:30">17:30</time>
+                    <div>
+                        <h3>Revisión del terreno</h3>
+                        <p>Equipo Geología</p>
+                    </div>
+                </article>
+
+                <article class="actividad">
+                    <time datetime="2026-09-20T19:00">19:00</time>
+                    <div>
+                        <h3>Monitoreo nocturno de tortugas</h3>
+                        <p>Equipo Conservación</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
 
     </main>
 </body>

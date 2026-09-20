@@ -33,5 +33,6 @@ Abrir `caso1/index.html` y `caso2/index.html` en el navegador. No requiere insta
 | # | Fecha      | Hash    |                         Mensaje                       | Zona   | Cambio        |
 |---|------------|---------|-------------------------------------------------------|--------|---------------|
 | 1 | 2026-09-18 | 8da13ac | Crear estructura de la tarea y documentacion inicial | Global | Carpetas |
+| 2 | 2026-09-19 | 16324d6 | Estructura HTML del header y la navegacion del caso 1 | Caso 1 | Header y Navegacion HTML |
 
 

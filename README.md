@@ -38,5 +38,6 @@ Abrir `caso1/index.html` y `caso2/index.html` en el navegador. No requiere insta
 | 4 | 2026-09-20 | 3444994 | Estructura HTML del Resumen de Operaciones y ajuste de Misiones y header | Caso 1 | Resumen de Operaciones |
 | 5 | 2026-09-20 | b11dbe7 | Correccion del ultimo commit (no habia guardado los cambios) | Caso 1 | Resumen de Operaciones |
 | 6 | 2026-09-20 | 1a16a7a | Estructura HTML de Equipos, Alertas y Agenda | Caso 1 | Equipos, Alertas y Agenda HTML |
+| 7 | 2026-09-20 | 64c87f2 | Estilo CSS general y especifico de header, nav y resumen | Caso 1 | Header, Nav y Resumen CSS |
 
 

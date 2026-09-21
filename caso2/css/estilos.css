@@ -66,6 +66,9 @@ p {
 
 .navegacion {
     background: #10181d;
+    position: sticky;
+    top: 98.4px;
+    z-index: 10;
 }
 
 .navegacion ul {
@@ -110,4 +113,204 @@ p {
 .cambios {
     min-width: 0;
     padding: var(--lg);
+}
+
+/* AHORA */
+
+.ahora {
+    border: 3px solid var(--verde);
+}
+
+.ahora-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--md);
+}
+
+.actividad {
+    position: relative;
+    padding: var(--lg);
+    padding-top: 3rem;
+
+    background: var(--superficie);
+    border-radius: 0.5rem;
+}
+
+.estado {
+    position: absolute;
+    top: var(--md);
+    right: var(--md);
+
+    padding: 0.25rem 0.5rem;
+
+    background: var(--verde);
+    color: var(--fondo);
+    border-radius: 999px;
+
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+
+/* LISTAS */
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sm);
+}
+
+.lista article {
+    display: flex;
+    align-items: center;
+    gap: var(--md);
+
+    padding: var(--md);
+
+    background: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: 0.4rem;
+}
+
+.lista time {
+    flex: 0 0 4rem;
+
+    font-weight: 800;
+    color: var(--verde);
+}
+
+
+/* CAMBIOS */
+
+.cambios {
+    border-left: 4px solid var(--amarillo);
+}
+
+.cambio {
+    margin-bottom: var(--sm);
+    padding: var(--md);
+
+    background: var(--superficie);
+    border: 1px solid var(--amarillo);
+    border-radius: 0.4rem;
+}
+
+.cambio h3 {
+    color: var(--amarillo);
+    font-size: 1rem;
+}
+
+
+/* ESCENARIOS */
+
+.escenarios-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--md);
+}
+
+.escenarios-grid article,
+.servicios-grid article {
+    padding: var(--md);
+
+    background: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: 0.4rem;
+}
+
+.escenarios-grid h3,
+.servicios-grid h3 {
+    color: var(--verde);
+}
+
+
+/* SERVICIOS */
+
+.servicios-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sm);
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: var(--lg);
+    text-align: center;
+    background: #10181d;
+    color: var(--secundario);
+}
+
+
+/* TABLETA */
+
+@media (min-width: 38rem) {
+
+    .encabezado {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .ahora-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .escenarios-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .servicios-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* ESCRITORIO */
+
+@media (min-width: 64rem) {
+
+    .festival {
+        grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
+    }
+
+    .ahora {
+        grid-column: 1;
+    }
+
+    .proximas {
+        grid-column: 1;
+    }
+
+    .cambios {
+        grid-column: 2;
+        grid-row: 1 / 3;
+    }
+
+    .escenarios {
+        grid-column: 1 / -1;
+    }
+
+    .servicios {
+        grid-column: 1;
+    }
+
+    .informacion {
+        grid-column: 2;
+    }
+
+    .ahora-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .escenarios-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .servicios-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
 }

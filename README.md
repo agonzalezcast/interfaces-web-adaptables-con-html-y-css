@@ -26,6 +26,20 @@ Abrir `caso1/index.html` y `caso2/index.html` en el navegador. No requiere insta
  
 ## Decisiones de diseño
  
+### Decisiones de diseño
+
+* **Etiquetas semánticas:** Se utilizaron `header`, `nav`, `main`, `section`, `article` y `time` para organizar el contenido según su función.
+* **Encabezados:** Se utilizó un `h1` para el título principal, `h2` para las secciones y `h3` para sus elementos internos.
+* **Accesibilidad:** Se incluyó `lang="es"`, textos descriptivos, `aria-hidden` para símbolos decorativos y estados identificables mediante texto y símbolos, no solo colores.
+* **Modelo de caja:** Se utilizó `box-sizing: border-box` para incluir padding y bordes dentro del tamaño de los elementos.
+* **Posicionamiento:** `sticky` mantiene el encabezado visible y `relative` + `absolute` permite colocar las etiquetas de prioridad dentro de las tarjetas.
+* **Cascada:** Los estilos base son para móvil y las `media queries` sobrescriben propiedades cuando aumenta el ancho de pantalla.
+* **Flexbox:** Se utilizó en el encabezado, navegación, indicadores, alertas y agenda para alinear y distribuir elementos en una dimensión.
+* **CSS Grid:** Se utilizó en el panel principal y las cuadrículas de misiones, equipos e indicadores para organizar filas y columnas.
+* **Responsive:** En móvil se utiliza una columna, en tableta dos y en escritorio se distribuyen las secciones en varias zonas.
+* **Media queries:** `48rem`, `64rem` y `80rem` permiten adaptar progresivamente el diseño según el espacio disponible.
+* **Unidades relativas:** Se utilizaron principalmente `rem`, `%` y `fr` para crear un diseño flexible.
+* **Variables CSS:** Las variables de `:root` centralizan colores y espaciados para mantener consistencia y facilitar cambios.
 
  
 ## Resumen de commits
@@ -39,5 +53,6 @@ Abrir `caso1/index.html` y `caso2/index.html` en el navegador. No requiere insta
 | 5 | 2026-09-20 | b11dbe7 | Correccion del ultimo commit (no habia guardado los cambios) | Caso 1 | Resumen de Operaciones |
 | 6 | 2026-09-20 | 1a16a7a | Estructura HTML de Equipos, Alertas y Agenda | Caso 1 | Equipos, Alertas y Agenda HTML |
 | 7 | 2026-09-20 | 64c87f2 | Estilo CSS general y especifico de header, nav y resumen | Caso 1 | Header, Nav y Resumen CSS |
+| 8 | 2026-09-20 | 5b3b3d3 | Estilo CSS de Misiones, Equipos, Alertas, Agenda y Media queries para los diferentes tamanos de pantalla | Caso 1 | Misiones, Equipos, Alertas, Agenda y Media Queries CSS|
 
 

@@ -54,5 +54,7 @@ Abrir `caso1/index.html` y `caso2/index.html` en el navegador. No requiere insta
 | 6 | 2026-09-20 | 1a16a7a | Estructura HTML de Equipos, Alertas y Agenda | Caso 1 | Equipos, Alertas y Agenda HTML |
 | 7 | 2026-09-20 | 64c87f2 | Estilo CSS general y especifico de header, nav y resumen | Caso 1 | Header, Nav y Resumen CSS |
 | 8 | 2026-09-20 | 5b3b3d3 | Estilo CSS de Misiones, Equipos, Alertas, Agenda y Media queries para los diferentes tamanos de pantalla | Caso 1 | Misiones, Equipos, Alertas, Agenda y Media Queries CSS|
+| 9 | 2026-09-20 | 974eb57 | Estructura HTML del caso 2: header, nav, ahora y actividades proximas | Caso 2 | Header, nav, ahora y proximas HTML |
+
 
 
